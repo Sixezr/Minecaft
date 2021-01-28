@@ -1,0 +1,9 @@
+{
+  "item.testmod.chips": "Чипсина",
+  "item.testmod.chips_sword": "Меч из чипсов",
+  "item.testmod.chips_helmet": "Шлем из чипсов",
+  "item.testmod.chips_chest": "Нагрудник из чипсов",
+  "item.testmod.chips_leggins": "Поножи из чипсов",
+  "item.testmod.chips_boots": "Ботинки из чипсов",
+  "block.testmod.chips_ore": "Чипсовая руда"
+}
