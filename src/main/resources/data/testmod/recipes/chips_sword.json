@@ -12,12 +12,11 @@
     },
     "*":
     {
-      "item": "testmod:chips",
-      "data": 32767
+      "item": "testmod:chips"
     }
   },
   "result": {
     "item": "testmod:chips_sword",
-    "data": 0
+    "count": 1
   }
 }

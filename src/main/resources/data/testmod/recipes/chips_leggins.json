@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:chips"
+    }
+  },
+  "result": {
+    "item": "testmod:chips_leggins",
+    "count": 1
+  }
+}

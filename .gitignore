@@ -16,5 +16,4 @@
 !.gitignore
 
 # Other Important Folders
-!debug.log
 !src/
