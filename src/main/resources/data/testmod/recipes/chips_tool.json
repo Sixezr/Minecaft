@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "***",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick",
+      "data": 0
+    },
+    "*":
+    {
+      "item": "testmod:chips"
+    }
+  },
+  "result": {
+    "item": "testmod:chips_tool",
+    "count": 1
+  }
+}
