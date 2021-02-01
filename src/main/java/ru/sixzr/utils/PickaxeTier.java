@@ -1,12 +1,11 @@
 package ru.sixzr.utils;
 
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 
-public enum SwordTier implements IItemTier {
-    MAGIC_TIER(4, 3500, 7.2F, 5.0F, 5, Ingredient.fromStacks(new ItemStack(Items.ENCHANTED_BOOK, 5)));
+public enum PickaxeTier implements IItemTier {
+
+    MAGIC_TIER(10, 0, 14.2F, 0.0F, 5, Ingredient.EMPTY);
 
     private final int harvestLevel;
     private final int maxUses;
@@ -15,7 +14,8 @@ public enum SwordTier implements IItemTier {
     private final int enchantability;
     private final Ingredient repairMaterial;
 
-    SwordTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Ingredient repairMaterialIn) {
+
+    PickaxeTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Ingredient repairMaterialIn) {
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
         this.efficiency = efficiencyIn;
@@ -23,7 +23,6 @@ public enum SwordTier implements IItemTier {
         this.enchantability = enchantabilityIn;
         this.repairMaterial = repairMaterialIn;
     }
-
 
     @Override
     public int getMaxUses() {
@@ -54,4 +53,5 @@ public enum SwordTier implements IItemTier {
     public Ingredient getRepairMaterial() {
         return repairMaterial;
     }
+
 }

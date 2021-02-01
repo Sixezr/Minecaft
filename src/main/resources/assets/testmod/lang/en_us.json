@@ -5,7 +5,8 @@
   "item.testmod.chips_chest": "Chips' chest",
   "item.testmod.chips_leggins": "Chips' leggins",
   "item.testmod.chips_boots": "Chips' boots",
-  "block.testmod.chips_ore": "Chips' ore"
+  "block.testmod.chips_ore": "Chips' ore",
+  "item.testmod.chips_tool": "Chips' tool"
 
 
 }

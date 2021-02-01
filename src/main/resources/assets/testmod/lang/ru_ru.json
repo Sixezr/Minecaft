@@ -5,5 +5,7 @@
   "item.testmod.chips_chest": "Нагрудник из чипсов",
   "item.testmod.chips_leggins": "Поножи из чипсов",
   "item.testmod.chips_boots": "Ботинки из чипсов",
-  "block.testmod.chips_ore": "Чипсовая руда"
+  "block.testmod.chips_ore": "Чипсовая руда",
+  "item.testmod.chips_tool": "Чипсовый инструмент"
+
 }

@@ -12,6 +12,7 @@ import ru.sixzr.TestMod;
 import ru.sixzr.items.ChipsArmor;
 import ru.sixzr.items.ChipsItem;
 import ru.sixzr.items.ChipsSword;
+import ru.sixzr.items.ChipsTool;
 
 public class RegisterItem {
 
@@ -22,6 +23,7 @@ public class RegisterItem {
     public static Rarity EPIC = Rarity.create("epic", TextFormatting.DARK_PURPLE);
     public static final RegistryObject<Item> CHIPS = ITEMS.register("chips",  ChipsItem::new);
     public static final RegistryObject<Item> CHIPS_SWORD = ITEMS.register("chips_sword",  ChipsSword::new);
+    public static final RegistryObject<Item> CHIPS_TOOL = ITEMS.register("chips_tool", ChipsTool::new);
     public static final RegistryObject<Item> CHIPS_HELM  = ITEMS.register("chips_helmet", () -> new ChipsArmor(EquipmentSlotType.HEAD));
     public static final RegistryObject<Item> CHIPS_CHEST = ITEMS.register("chips_chest",  () -> new ChipsArmor(EquipmentSlotType.CHEST));
     public static final RegistryObject<Item> CHIPS_LEGS  = ITEMS.register("chips_leggins",() -> new ChipsArmor(EquipmentSlotType.LEGS));
